@@ -15,7 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	
+	 <sonar.host.url>http://52.66.235.247:9000</sonar.host.url>
+        <sonar.password>squ_1581be83921137816e9e6a9e8d35d1ab8c80c850</sonar.password>
   <build>
     <plugins>
 			<plugin>
@@ -26,6 +27,5 @@
 		</plugins>
     <finalName>01-maven-app</finalName>
   </build>
-	 <sonar.host.url>http://52.66.235.247:9000</sonar.host.url>
-        <sonar.password>squ_1581be83921137816e9e6a9e8d35d1ab8c80c850</sonar.password>
+	
 </project>
