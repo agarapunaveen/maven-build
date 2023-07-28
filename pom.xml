@@ -16,6 +16,8 @@
     </dependency>
   </dependencies>
 	<properties>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>sonar</sonar.password>
 	 	<sonar.host.url>http://15.206.88.21</sonar.host.url>
         	<sonar.password>sqa_b2efd72fdabe2588033211e2811390533face512</sonar.password>
 	</properties>		
