@@ -15,18 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	<properties>
-	 	<sonar.host.url>http://15.206.88.21</sonar.host.url>
-        	<sonar.password>sqa_b2efd72fdabe2588033211e2811390533face512</sonar.password>
-	</properties>		
+		
   <build>
     <plugins>
-			
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.3.1</version>
-			</plugin>
 	    		<plugin>
 		            <groupId>org.codehaus.mojo</groupId>
 		            <artifactId>sonar-maven-plugin</artifactId>
